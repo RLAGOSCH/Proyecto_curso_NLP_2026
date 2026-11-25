@@ -66,3 +66,10 @@ dfresumen <- data.frame(concept  = names(n_s1),
                       n_stage2 = as.vector(n_s2[names(n_s1)]))
 print(dfresumen)
 
+
+# Guardado con el mismo formato del original
+
+write.table(dfstage1, output_s1, sep = ";", row.names = FALSE, qmethod = "double",
+            fileEncoding = "windows-1252")
+write.table(dfstage2, output_s2, sep = ";", row.names = FALSE, qmethod = "double",
+            fileEncoding = "windows-1252")
