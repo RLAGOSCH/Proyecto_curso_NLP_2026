@@ -1,0 +1,29 @@
+{
+  "best": {
+    "loss": 0.01001319042964665,
+    "Cbar": 0.6477377020021673,
+    "k": 1,
+    "sim_min": 0.33,
+    "resolution": 0.6
+  },
+  "stage": 1,
+  "n_rows": 6545,
+  "n_rows_by_stage": {
+    "1": 6545
+  },
+  "n_codes_total": 1197,
+  "n_new_codes_this_stage": 1197,
+  "assign_method_this_stage": {
+    "fit": 6545
+  },
+  "u_mode": "rows",
+  "Cbar_rows": 0.6477377020021673,
+  "Cbar_incidence": 0.6003023388571747,
+  "legacy": false,
+  "grid_edge_warnings": [
+    "Best k=1 is on the lower edge of the grid [1, 40]; the true optimum may lie outside it.",
+    "Best sim_min=0.33 is on the lower edge of the grid [0.33, 0.6]; the true optimum may lie outside it.",
+    "Best resolution=0.6 is on the lower edge of the grid [0.6, 2.0]; the true optimum may lie outside it."
+  ],
+  "fact_version": "3.0"
+}
