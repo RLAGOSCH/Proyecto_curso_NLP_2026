@@ -1,0 +1,26 @@
+{
+  "best": {
+    "loss": 0.013802654629356167,
+    "Cbar": 0.6921585409982642,
+    "k": 1,
+    "sim_min": 0.33,
+    "resolution": 0.6
+  },
+  "stage": 2,
+  "n_rows": 9399,
+  "n_rows_by_stage": {
+    "1": 6545,
+    "2": 2854
+  },
+  "n_codes_total": 1197,
+  "n_new_codes_this_stage": 0,
+  "assign_method_this_stage": {
+    "knn_vote": 2854
+  },
+  "u_mode": "rows",
+  "Cbar_rows": 0.6921585409982642,
+  "Cbar_incidence": 0.6534379857823438,
+  "legacy": false,
+  "grid_edge_warnings": [],
+  "fact_version": "3.0"
+}
